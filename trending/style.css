@@ -1,0 +1,135 @@
+body {
+  box-sizing: border-box;
+  font-family: "Roboto", sans-serif;
+}
+.container {
+  width: 800px;
+  height: 260px;
+  margin: 0 auto;
+  border-radius: 12px;
+  padding-top: 5px;
+  display: flex;
+  box-shadow: rgb(0 0 255 / 21%) -1px -1px 2px 2px;
+  margin-bottom: 50px;
+}
+.trending {
+  padding: 5px 5px;
+}
+.image {
+  width: 300px;
+  height: 250px;
+  border-radius: 12px;
+  position: relative;
+  object-fit: cover;
+}
+.content {
+  padding: 5px 20px;
+}
+.trending-rank {
+  color: blue;
+  padding: 15px 15px;
+  background: 20px;
+  position: absolute;
+  transform: translate(5px, -590%);
+  background-color: white;
+  width: 12px;
+  height: 12px;
+  border-radius: 120px;
+  text-align: center;
+}
+.button {
+  padding-top: 10px;
+}
+.button-live,
+.button-shooter {
+  padding: 5px 20px;
+  outline: none;
+  border: 0;
+  font-family: "Roboto", sans-serif;
+  border-radius: 12px;
+  margin-bottom: 10px;
+  cursor: pointer;
+}
+.button-live {
+  color: white;
+  background-color: orange;
+}
+.button-shooter {
+  color: blue;
+  background-color: rgb(199, 199, 199);
+}
+.content-name {
+  font-weight: bold;
+  font-size: 21px;
+  line-height: 1.2;
+  margin-bottom: 10px;
+}
+.content-name span {
+  display: block;
+}
+.content-time {
+  display: flex;
+}
+.content-watching,
+.content-week {
+  display: flex;
+  color: gray;
+  font-size: 14px;
+  margin-bottom: 20px;
+}
+.icon-watching {
+  color: blue;
+  margin-right: 10px;
+}
+.icon-week {
+  color: green;
+  margin-left: 15px;
+  margin-right: 10px;
+}
+.content-author {
+  display: flex;
+}
+.author-img {
+  width: 50px;
+  height: 50px;
+  border-radius: 100px;
+  object-fit: cover;
+  padding-right: 10px;
+}
+.author-name {
+  font-size: 16px;
+  font-weight: bold;
+}
+.author-icon {
+  color: green;
+}
+.author-info {
+  display: block;
+}
+.author-game {
+  color: gray;
+  margin-top: 10px;
+  font-size: 14px;
+}
+.social {
+  display: flex;
+  flex-direction: column;
+  background-color: purple;
+  height: 220px;
+  border-radius: 20px;
+  padding: 20px 20px;
+  margin: 0 auto;
+}
+.social-icon {
+  margin-bottom: 18px;
+  color: white;
+  padding: 20px 20px;
+  outline: none;
+  border: 0;
+  border-radius: 10px;
+}
+.social-icon:hover {
+  cursor: pointer;
+  background-color: rgba(221, 75, 221, 0.288);
+  transition: all 0.2s linear;
+}
